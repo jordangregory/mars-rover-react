@@ -43,8 +43,7 @@ export default class GetImageForm extends Component {
 
   render() {
     let container = {
-      backgroundColor: "gray",
-      padding: 50
+      padding: 100
     };
     let fieldWrapper = {
       display: "flex",
@@ -56,11 +55,13 @@ export default class GetImageForm extends Component {
     };
 
     let inputDivs = {
-      margin: "10px"
+      margin: 10
     };
 
     let labelTags = {
-      margin: "10px"
+      margin: 10,
+      color: "white",
+      fontSize: 25
     };
     return (
       <div style={container}>

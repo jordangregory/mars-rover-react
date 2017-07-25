@@ -11,17 +11,14 @@ export default class ImageDisplay extends Component {
       flex: "0"
     };
 
-    // let imageItself = {
-    //   width: "100%",
-    //   height: "auto"
-    // };
-
     let style1 = {
-      width: "100px"
+      width: 100,
+      margin: 10
     };
 
     let style2 = {
-      width: "300px"
+      width: 300,
+      margin: 10
     };
     let images = this.props.imageDisplay.map((e, i, a) => {
       let style = a.length > 10 ? style1 : style2;
